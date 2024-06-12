@@ -1,0 +1,11 @@
+<?php
+
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname= "job-app";
+
+if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
+{
+    die("failed to connect!");
+}

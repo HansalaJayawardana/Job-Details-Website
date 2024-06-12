@@ -1,0 +1,355 @@
+
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+.container
+{
+    width: 100%;
+    
+    margin: 0 auto;
+}
+header
+{
+    background:rgb(216, 172, 69);
+
+}
+header h1
+{
+    padding: 2vw;
+    font-size: 70px;
+    line-height: 50px;
+}
+nav ul
+{
+    list-style: none;
+    /* color: #fff; */
+}
+nav ul li
+{
+    /* color: #fff; */
+    display: inline;
+}
+nav ul li a
+{
+    display: inline-block;
+    padding: 10px 20px;
+    border-right: 1px solid gray;
+}
+nav ul li a:hover
+{
+    background:rgb(217, 215, 87);
+    color:white;
+}
+nav
+{
+    background:#e7e294
+}
+.mobnav
+{
+    display: none;
+    cursor: pointer;
+}
+.mobnav ul li
+{
+    width: 100%;
+    display: block;
+}
+.mobnav ul li a
+{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+.mobnav h3
+{
+    padding: 20px;
+    background: white;
+}
+.h1t{
+    font-size: 4.5vw;
+}
+@media screen and (max-width: 696px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    .mobnav
+    {
+        display: block;
+    }
+    nav ul
+    {
+        display: none;
+    }
+}
+.h1t
+{
+    font-size: 45px;
+    text-align: left;
+    color: white;
+    
+}
+.btn1
+{
+  background-color:  #171515;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  position:absolute;
+  top: 2.5vw;
+  left: 73vw;
+  cursor:grab;
+  border-radius: 12px;
+}
+.btn
+{
+    position:absolute;
+    top: 35px;
+    left: 90%;
+    background-color:  #746210;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor:grab;
+  border-radius: 12px;
+} 
+.h1d2
+{
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+    font-size: 50px;
+}
+.div1
+{
+    background:rgba(75, 73, 73, 0.7) url('sisira123.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: 100%;
+    height: 565px;
+    width: 100%;
+    margin: 0 auto;
+}
+.surch
+{
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+}
+form
+{
+    background: #fff;
+    width: 550px;
+    height: 45px;
+    display: flex;
+}
+form input
+{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button
+{
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    latter: spacing 1px;
+    cursor: pointer;
+}
+form .fa-search
+{
+    align-self: center;
+    padding: 10px 20px;
+    color: black;
+}
+.h4d
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.div2
+{
+    height: 420px;
+    background: white;
+}
+.alin
+{
+    text-align: center;
+    color: rgb(111, 98, 98);
+    padding-top: 2%;
+}
+.a
+{
+    width: 220px;
+    height: 230px;
+    border-radius: 4px;
+}
+.div2 ul li
+{
+    display: inline;
+}
+.ul
+{
+    text-align: center;
+}
+.img :hover
+{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+.pd3
+{
+    font-size: 25px;
+    padding-left: 12%;
+}
+.div3
+{
+    height: 150%;
+    background:  #e7e294;
+    display:flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+
+}
+.h2h
+{
+   margin: 0;
+   color: #171515;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.p3
+{
+    margin-right: 30px;  
+    font-size:x-large;  
+    padding-top: 6%;
+}
+.img2
+{
+    height: 350px;
+    width: 70%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppinas:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-sizing:'Poppinas',sans-serif;
+}
+.container1{
+    max-width: auto;
+    margin: 0vw;
+}
+
+.row{
+    background-color: #746210;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw;
+   
+}
+ul{
+    list-style: none;
+}
+/*footer get to second page*/
+.footer{
+    background-size:contain;
+    padding: 0;
+     padding-bottom: 0%;  /*limit footer page*/
+     margin-top: 0px;
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin: 0vw;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;/*make footer in a box*/
+    
+}
+.footer-col{
+      width: 25%;
+      padding: 0 15px;
+}
+.footer-col h4{
+        font-size: 18px;
+        color: #000000;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+        background-color: rgb(179, 199, 102);
+        
+}
+footer-col h4::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: rgb(179, 199, 102);
+        height: 2px;
+        box-sizing: border-box;
+        width: 500px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+/*footer font desing and font animation*/
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #2e1f1f;
+    text-decoration: none;
+    font-weight: 300;
+    color: #070706;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: rgb(181, 174, 75);
+    padding-left: 10px;
+}
+/*responsive*/
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+       
+  }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+       
+       
+  }
+}
+
+
+

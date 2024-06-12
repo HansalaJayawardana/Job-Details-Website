@@ -1,0 +1,545 @@
+  /* set background image */
+
+  *{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+  body{
+    font-family:   Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+   background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+/* Edit head topik with animation */
+
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.navbar
+{
+    width: 100%;/*border box size chenge*/
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+header
+{
+    background:rgb(216, 172, 69);
+}
+header h1
+{
+    padding: 2vw;
+}
+nav ul
+{
+    list-style: none;
+    /* color: #fff; */
+}
+nav ul li
+{
+    /* color: #fff; */
+    display: inline;
+}
+nav ul li a
+{
+    display: inline-block;
+    padding: 10px 20px;
+    border-right: 1px solid gray;
+}
+nav ul li a:hover
+{
+    background:rgb(217, 215, 87);
+    color:white;
+}
+nav
+{
+    background:#e7e294
+}
+.mobnav
+{
+    display: none;
+    cursor: pointer;
+}
+.mobnav ul li
+{
+    width: 100%;
+    display: block;
+}
+.mobnav ul li a
+{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+.mobnav h3
+{
+    padding: 20px;
+    background: white;
+}
+.h1t{
+    font-size: 4.5vw;
+}
+@media screen and (max-width: 696px)
+{
+    .navbar
+    {
+        width: 100%;
+    }
+    .mobnav
+    {
+        display: block;
+    }
+    nav ul
+    {
+        display: none;
+    }
+}
+.h1t
+{
+    font-size: 45px;
+    text-align: left;
+    color: white;
+    
+}
+.btn1{
+    background-color:  #171515;
+    border: none;
+    color: white;
+    padding: 1vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    position:absolute;
+    top: 2.5vw;
+    left: 73vw;
+    cursor:pointer;
+    border-radius: 12px;
+}
+.btn
+{
+    position:absolute;
+    top: 35px;
+    left: 90%;
+    background-color:  #746210;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor:grab;
+  border-radius: 12px;
+}
+@media screen and (max-width: 696px){
+    .navbar
+    {
+        width: 100%;
+    }
+    .mobnav
+    {
+        display: block;
+    }
+    nav ul
+    {
+        display: none;
+    }
+}
+
+
+
+
+.header{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background: linear-gradient(90deg,#764e5d,#744f58,#731f97,#68344e,#b32a65);
+    background-size: 400%;
+    font-size: 200px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 30s linear infinite;
+
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+ 
+ 
+/* main topick */
+.header h1{
+    font-size: 70px;
+    line-height: 50px;
+}
+/* button make */
+/*.right{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%,-50%);*/
+}
+ /*button editor  */
+/*.button{
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    font-size: 15px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}*/
+.button:hover
+{
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
+       0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
+}
+
+/* main two topic */
+ /*  
+.about-text h2{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+   position: absolute;
+    top: 55%;
+    left: 50%;
+}*/
+/* firest pargraf */
+/*  
+.about-text p{
+    color: rgb(242, 30, 30);
+    letter-spacing: 1px;
+    line: height 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}*/
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+}
+/*3d1 image remove background*/
+.container .box5{
+    mix-blend-mode: multiply;
+    
+}
+.container .box{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    color: white;
+    background: black;
+    display: flex;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+.container .box:hover{
+    transform:translateY(-20px) ;
+}
+.container .box::before{
+    content:'';
+    position: absolute;
+    top: o;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,goldenrod,pink);
+}
+.container .box::after{
+    content:'';
+    position: absolute;
+    top: o;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,goldenrod,pink);
+    filter: blur(30px);
+
+}
+/*second box color change*/
+.container .box:nth-child(2)::before,
+.container .box:nth-child(2)::after{
+    background: linear-gradient(315deg,brown,pink);
+}
+/*threed box color chenge*/
+.container .box:nth-child(3)::before,
+.container .box:nth-child(3)::after{
+    background: linear-gradient(315deg,green,pink);
+}
+/*box border edit*/
+.container .box span{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0,0,0,0.6);
+    z-index: 2;
+}
+/*box half dark*/
+.container .box span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+}
+/*display word in the box*/
+.container .box .content{
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+}
+.container .box .content h2{
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+}
+.container .box .content p{
+    font-size: 1.1em;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+}
+/*text decaretion*/
+.container .box .content a{
+    display: inline-block;
+    font-size: 1.1em;
+    color: black;
+    background:white ;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*footer css begining*/
+@import url('https://fonts.googleapis.com/css2?family=Poppinas:wght@300;400;500;600;700&display=swap');
+/* body{
+    line-height: 1.5;
+    font-sizing:'Poppinas',sans-serif;
+}
+.container1{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+
+.row{
+    background-color: #a55f5f;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+ul{
+    list-style: none;
+} */
+/*footer get to second page*/
+
+
+ .footer{
+   background-size:contain;
+   padding: 840px 0;
+    padding-bottom: 0%;  /*limit footer page*/
+    margin-top: 0px;
+     width: 100%;
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin: 0vw;
+    
+   
+}  
+ /* .footer{
+    background-size:contain;
+    padding-top: 20px;
+    margin: 0vw;
+    box-sizing:border-box;
+   
+ }  */
+ 
+ /* .footer{
+     margin-top: 0px;
+     background-size:contain;
+     padding: 824px 0;
+      padding-bottom: 0%;
+      width: 100%;
+     margin-left: 0px;
+     margin-right: 0px;
+     padding: 0;
+      box-sizing:border-box; make footer in a box 
+ }  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;/*make footer in a box*/
+    
+}
+.container1{
+    max-width: auto;
+    margin: 0vw;
+    
+}
+.row{
+    background-color: #746210;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 2vw;
+   
+}
+ul{
+    list-style: none;
+}
+
+.footer-col{
+      width: 25%;
+      padding: 0 15px;
+}
+.footer-col h4{
+        font-size: 18px;
+        color: #000000;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+        background-color: rgb(179, 199, 102);
+        
+}
+footer-col h4::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: rgb(179, 199, 102);
+        height: 2px;
+        box-sizing: border-box;
+        width: 500px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+/*footer font desing and font animation*/
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #2e1f1f;
+    text-decoration: none;
+    font-weight: 300;
+    color: #070706;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: rgb(181, 174, 75);
+    padding-left: 10px;
+}
+/*responsive*/
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+       
+  }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+       
+       
+  }
+}
+  
+/*form desing with border,aling,shadow,border*/
+.form-container{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate((-50%,-50%));
+    background: linear-gradient(rgba(211, 205, 205, 0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+h1{
+    text-transform:none;
+    font-size: 2em;
+    text-align: center;
+    margin: bottom 2em; 
+    color: white;
+}
+/*Name,Password box desing*/
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: rgb(21, 14, 14);
+    border: none;
+    margin: 1em 0;
+}
+/*login button desing*/
+.control input[type="submit"]{
+    background: rgb(212, 88, 34);
+    color: #fff;
+    text-transform: uppercase;
+    font: size :1.2em;
+    opacity: .7;
+    transition:opacity .3s ease;
+}
+/*login button popup*/
+.control input[type="submit"]:hover{
+        opacity: 1;
+}
+.link{
+    text-align: center;
+
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    transition: opacity .3s ease;
+
+}
+.link a:hover{
+    opacity: 1;
+} */
+  
+
